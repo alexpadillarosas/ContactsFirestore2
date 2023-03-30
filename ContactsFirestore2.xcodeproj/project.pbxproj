@@ -12,7 +12,6 @@
 		FA73080229D1A60500DA0746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73080129D1A60500DA0746 /* ViewController.swift */; };
 		FA73080729D1A60600DA0746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA73080629D1A60600DA0746 /* Assets.xcassets */; };
 		FA73080A29D1A60600DA0746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA73080829D1A60600DA0746 /* LaunchScreen.storyboard */; };
-		FA73081229D1A63F00DA0746 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA73081129D1A63F00DA0746 /* GoogleService-Info.plist */; };
 		FA73081529D1A6FD00DA0746 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FA73081429D1A6FD00DA0746 /* FirebaseFirestore */; };
 		FA73082129D1A88000DA0746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA73082029D1A87F00DA0746 /* Main.storyboard */; };
 		FA73082629D1A8A900DA0746 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73082229D1A8A700DA0746 /* Contact.swift */; };
@@ -31,7 +30,6 @@
 		FA73080629D1A60600DA0746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA73080929D1A60600DA0746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA73080B29D1A60600DA0746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA73081129D1A63F00DA0746 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FA73082029D1A87F00DA0746 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FA73082229D1A8A700DA0746 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		FA73082329D1A8A700DA0746 /* ContactRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactRepository.swift; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 		FA7307FC29D1A60500DA0746 /* ContactsFirestore2 */ = {
 			isa = PBXGroup;
 			children = (
-				FA73081129D1A63F00DA0746 /* GoogleService-Info.plist */,
 				FA7307FD29D1A60500DA0746 /* AppDelegate.swift */,
 				FA7307FF29D1A60500DA0746 /* SceneDelegate.swift */,
 				FA73080129D1A60500DA0746 /* ViewController.swift */,
@@ -155,7 +152,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA73080A29D1A60600DA0746 /* LaunchScreen.storyboard in Resources */,
-				FA73081229D1A63F00DA0746 /* GoogleService-Info.plist in Resources */,
 				FA73080729D1A60600DA0746 /* Assets.xcassets in Resources */,
 				FA73082129D1A88000DA0746 /* Main.storyboard in Resources */,
 			);
