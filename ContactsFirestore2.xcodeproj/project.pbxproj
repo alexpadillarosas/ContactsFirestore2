@@ -20,6 +20,7 @@
 		FA73082929D1A8A900DA0746 /* ContactsTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73082529D1A8A800DA0746 /* ContactsTVController.swift */; };
 		FAA4E75B29D58E8B00976E4A /* ViewContactTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E75A29D58E8B00976E4A /* ViewContactTVController.swift */; };
 		FAA4E75D29D58F2500976E4A /* EditContactTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E75C29D58F2500976E4A /* EditContactTVController.swift */; };
+		FAA4E75F29D5A3C400976E4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAA4E75E29D5A3C400976E4A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		FA73082529D1A8A800DA0746 /* ContactsTVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTVController.swift; sourceTree = "<group>"; };
 		FAA4E75A29D58E8B00976E4A /* ViewContactTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContactTVController.swift; sourceTree = "<group>"; };
 		FAA4E75C29D58F2500976E4A /* EditContactTVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactTVController.swift; sourceTree = "<group>"; };
+		FAA4E75E29D5A3C400976E4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		FA7307FC29D1A60500DA0746 /* ContactsFirestore2 */ = {
 			isa = PBXGroup;
 			children = (
+				FAA4E75E29D5A3C400976E4A /* GoogleService-Info.plist */,
 				FA7307FD29D1A60500DA0746 /* AppDelegate.swift */,
 				FA7307FF29D1A60500DA0746 /* SceneDelegate.swift */,
 				FA73080129D1A60500DA0746 /* ViewController.swift */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA73080A29D1A60600DA0746 /* LaunchScreen.storyboard in Resources */,
+				FAA4E75F29D5A3C400976E4A /* GoogleService-Info.plist in Resources */,
 				FA73080729D1A60600DA0746 /* Assets.xcassets in Resources */,
 				FA73082129D1A88000DA0746 /* Main.storyboard in Resources */,
 			);
