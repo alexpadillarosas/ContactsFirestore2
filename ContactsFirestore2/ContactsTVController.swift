@@ -62,14 +62,12 @@ class ContactsTVController: UITableViewController {
         // Configure the cell...
         let contact = contacts[indexPath.row]
         
-        if !contact.photo.isEmpty {
-            if UIImage(named: contact.photo) != nil {
-                cell.photoImageView.image = UIImage(named: contact.photo)
-            }else{//This else is needed to reset the default image, else gets cached it and display the wrong one whenever the image cannot be found in the project
-                cell.photoImageView.image = UIImage(systemName: "person.circle.fill")
-            }
+        //if there is an image to look for in the assests folder and the image exists
+        if !contact.photo.isEmpty && UIImage(named: contact.photo) != nil {
+            cell.photoImageView.image = UIImage(named: contact.photo)
+        }else{//This else is needed to reset the default image, else gets cached it and display the wrong one whenever the image cannot be found in the project
+            cell.photoImageView.image = UIImage(systemName: "person.circle.fill")
         }
-        
         
         cell.nameLabel.text = contact.name
         cell.positionLabel.text = contact.position
