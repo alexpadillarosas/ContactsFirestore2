@@ -69,8 +69,17 @@ class ContactsTVController: UITableViewController {
             cell.photoImageView.image = UIImage(systemName: "person.circle.fill")
         }
         
+        //To round the image
+        cell.photoImageView.layer.cornerRadius = cell.photoImageView.frame.size.width / 2
+        cell.photoImageView.clipsToBounds = true
+        cell.photoImageView.layer.borderWidth = 2.0
+        cell.photoImageView.layer.borderColor = UIColor.white.cgColor
+        
+        
         cell.nameLabel.text = contact.name
         cell.positionLabel.text = contact.position
+        
+        
         
         
         return cell

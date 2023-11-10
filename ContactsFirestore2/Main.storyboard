@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qDV-tS-7Jx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qDV-tS-7Jx">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,11 +29,6 @@
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="S2l-el-9cv" secondAttribute="height" multiplier="76:77" id="xkJ-L9-K8z"/>
                                             </constraints>
-                                            <userDefinedRuntimeAttributes>
-                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                    <integer key="value" value="40"/>
-                                                </userDefinedRuntimeAttribute>
-                                            </userDefinedRuntimeAttributes>
                                         </imageView>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nk2-P1-9or">
                                             <rect key="frame" x="106.00000000000001" y="9" width="224.33333333333337" height="74"/>
@@ -135,11 +131,6 @@
                                                         <constraint firstAttribute="width" constant="192" id="A3i-ZF-StY"/>
                                                         <constraint firstAttribute="width" secondItem="338-oA-P2s" secondAttribute="height" multiplier="1:1" id="JeU-pG-x4u"/>
                                                     </constraints>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <integer key="value" value="90"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name, Lastname" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hbw-7G-O2D">
                                                     <rect key="frame" x="95.666666666666686" y="258" width="202" height="34"/>
@@ -272,11 +263,6 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="UFi-TU-V5m" secondAttribute="height" multiplier="1:1" id="Qsx-27-25j"/>
                                                     </constraints>
-                                                    <userDefinedRuntimeAttributes>
-                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <integer key="value" value="90"/>
-                                                        </userDefinedRuntimeAttribute>
-                                                    </userDefinedRuntimeAttributes>
                                                 </imageView>
                                             </subviews>
                                             <constraints>

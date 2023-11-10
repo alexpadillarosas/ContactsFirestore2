@@ -26,6 +26,12 @@ class EditContactTVController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
+        //round the image
+        contactImageView.layer.cornerRadius = contactImageView.frame.size.width / 2
+        contactImageView.clipsToBounds = true
+        contactImageView.layer.borderWidth = 2.0
+        contactImageView.layer.borderColor = UIColor.white.cgColor
+        
         if !contact.photo.isEmpty {
             if UIImage(named: contact.photo) != nil {
                 contactImageView.image = UIImage(named: contact.photo)
