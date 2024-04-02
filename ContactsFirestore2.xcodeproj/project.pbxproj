@@ -11,12 +11,12 @@
 		FA73080029D1A60500DA0746 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7307FF29D1A60500DA0746 /* SceneDelegate.swift */; };
 		FA73080729D1A60600DA0746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA73080629D1A60600DA0746 /* Assets.xcassets */; };
 		FA73080A29D1A60600DA0746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA73080829D1A60600DA0746 /* LaunchScreen.storyboard */; };
-		FA73081529D1A6FD00DA0746 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FA73081429D1A6FD00DA0746 /* FirebaseFirestore */; };
 		FA73082129D1A88000DA0746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA73082029D1A87F00DA0746 /* Main.storyboard */; };
 		FA73082629D1A8A900DA0746 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73082229D1A8A700DA0746 /* Contact.swift */; };
 		FA73082729D1A8A900DA0746 /* ContactRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73082329D1A8A700DA0746 /* ContactRepository.swift */; };
 		FA73082829D1A8A900DA0746 /* ContactTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73082429D1A8A700DA0746 /* ContactTVCell.swift */; };
 		FA73082929D1A8A900DA0746 /* ContactsTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA73082529D1A8A800DA0746 /* ContactsTVController.swift */; };
+		FA8388D02BBC18C100FA6A0E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FA8388CF2BBC18C100FA6A0E /* FirebaseFirestore */; };
 		FAA4E75B29D58E8B00976E4A /* ViewContactTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E75A29D58E8B00976E4A /* ViewContactTVController.swift */; };
 		FAA4E75D29D58F2500976E4A /* EditContactTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4E75C29D58F2500976E4A /* EditContactTVController.swift */; };
 		FAA4E75F29D5A3C400976E4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAA4E75E29D5A3C400976E4A /* GoogleService-Info.plist */; };
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA73081529D1A6FD00DA0746 /* FirebaseFirestore in Frameworks */,
+				FA8388D02BBC18C100FA6A0E /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 			);
 			name = ContactsFirestore2;
 			packageProductDependencies = (
-				FA73081429D1A6FD00DA0746 /* FirebaseFirestore */,
+				FA8388CF2BBC18C100FA6A0E /* FirebaseFirestore */,
 			);
 			productName = ContactsFirestore2;
 			productReference = FA7307FA29D1A60500DA0746 /* ContactsFirestore2.app */;
@@ -135,7 +135,7 @@
 			);
 			mainGroup = FA7307F129D1A60500DA0746;
 			packageReferences = (
-				FA73081329D1A6FD00DA0746 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FA8388CE2BBC18C100FA6A0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = FA7307FB29D1A60500DA0746 /* Products */;
 			projectDirPath = "";
@@ -382,20 +382,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FA73081329D1A6FD00DA0746 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		FA8388CE2BBC18C100FA6A0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
+				minimumVersion = 10.23.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FA73081429D1A6FD00DA0746 /* FirebaseFirestore */ = {
+		FA8388CF2BBC18C100FA6A0E /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FA73081329D1A6FD00DA0746 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = FA8388CE2BBC18C100FA6A0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
 		};
 /* End XCSwiftPackageProductDependency section */
